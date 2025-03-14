@@ -4,4 +4,4 @@ var host = new HostBuilder()
     .ConfigureFunctionsWorkerDefaults()
     .Build();
 
-host.Run();
+host.Run(change);
